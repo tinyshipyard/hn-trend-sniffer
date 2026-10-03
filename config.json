@@ -17,5 +17,5 @@
   "maxStories": 50,
   "feedTitle": "HackerNews Trend Sniffer",
   "feedDescription": "Curated, zero-noise tech news feed filtered by keyword and velocity score from Hacker News.",
-  "siteUrl": "https://bannu.github.io/hn-trend-sniffer"
+  "siteUrl": "https://tinyshipyard.github.io/hn-trend-sniffer"
 }
