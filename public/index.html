@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HackerNews Trend Sniffer</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 960px; margin: 0 auto; padding: 20px; background: #fdfdfd; }
+    h1 { color: #ff6600; border-bottom: 2px solid #ff6600; padding-bottom: 10px; }
+    .meta { background: #f1f1f1; padding: 10px 15px; border-radius: 6px; margin-bottom: 20px; font-size: 0.9rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    table { width: 100%; border-collapse: collapse; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-radius: 6px; overflow: hidden; }
+    th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #eee; }
+    th { background: #f8f9fa; font-weight: 600; color: #444; }
+    tr:hover { background: #fffaf5; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge { display: inline-block; padding: 3px 8px; border-radius: 12px; font-size: 0.8rem; font-weight: bold; }
+    .badge.points { background: #ffe8d6; color: #d9480f; }
+    .badge.velocity { background: #e3fafc; color: #0b7285; }
+    footer { margin-top: 40px; text-align: center; font-size: 0.85rem; color: #777; border-top: 1px solid #eee; padding-top: 15px; }
+  </style>
+</head>
+<body>
+  <h1>🔥 HackerNews Trend Sniffer</h1>
+  <div class="meta">
+    <div><strong>Keywords:</strong> AI, Artificial Intelligence, Open Source, Serverless, Rust, Python, Startup, LLM, API, Security, Database, Developer</div>
+    <div><strong>RSS Feed:</strong> <a href="./feed.xml">feed.xml</a></div>
+    <div><strong>Last Updated:</strong> Sat, 03 Oct 2026 13:11:13 GMT</div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Story</th>
+        <th>Points</th>
+        <th>Comments</th>
+        <th>Velocity</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><strong><a href="https://insufferable.dev/posts/the-ai-race-just-got-awkward/" target="_blank">The AI Race Just Got Awkward</a></strong><br/><small style="color: #666;">https://insufferable.dev/posts/the-ai-race-just-got-awkward/</small></td>
+        <td align="center"><span class="badge points">412 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49910553" target="_blank">462 comms</a></td>
+        <td align="center"><span class="badge velocity">1.2</span></td>
+        <td align="center"><small>69.4h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://turbopuffer.com/blog/rip-vector-database" target="_blank">RIP, vector database</a></strong><br/><small style="color: #666;">https://turbopuffer.com/blog/rip-vector-database</small></td>
+        <td align="center"><span class="badge points">380 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49923466" target="_blank">109 comms</a></td>
+        <td align="center"><span class="badge velocity">1.14</span></td>
+        <td align="center"><small>45.2h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://blog.cloudflare.com/cloudflare-k2-streams/" target="_blank">Cloudflare K2: serverless event streams</a></strong><br/><small style="color: #666;">https://blog.cloudflare.com/cloudflare-k2-streams/</small></td>
+        <td align="center"><span class="badge points">284 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49921923" target="_blank">111 comms</a></td>
+        <td align="center"><span class="badge velocity">0.89</span></td>
+        <td align="center"><small>47h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising" target="_blank">DraftKings is using AI to behaviorally target chronic gamblers</a></strong><br/><small style="color: #666;">https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising</small></td>
+        <td align="center"><span class="badge points">570 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49896050" target="_blank">429 comms</a></td>
+        <td align="center"><span class="badge velocity">0.84</span></td>
+        <td align="center"><small>92.7h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://twitter.com/0xcrypto/status/2105515822643114182" target="_blank">Fuck Android Developer Verification Program</a></strong><br/><small style="color: #666;">https://twitter.com/0xcrypto/status/2105515822643114182</small></td>
+        <td align="center"><span class="badge points">331 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49917761" target="_blank">138 comms</a></td>
+        <td align="center"><span class="badge velocity">0.8</span></td>
+        <td align="center"><small>56.6h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://calnewport.com/its-time-to-investigate-the-ai-labs/" target="_blank">It&apos;s Time to Investigate the AI Labs</a></strong><br/><small style="color: #666;">https://calnewport.com/its-time-to-investigate-the-ai-labs/</small></td>
+        <td align="center"><span class="badge points">628 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49883471" target="_blank">277 comms</a></td>
+        <td align="center"><span class="badge velocity">0.52</span></td>
+        <td align="center"><small>113.3h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/" target="_blank">AI companies in race to demonstrate their model most threatening to humanity</a></strong><br/><small style="color: #666;">https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/</small></td>
+        <td align="center"><span class="badge points">440 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49875148" target="_blank">398 comms</a></td>
+        <td align="center"><span class="badge velocity">0.45</span></td>
+        <td align="center"><small>124.6h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf" target="_blank">A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]</a></strong><br/><small style="color: #666;">https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf</small></td>
+        <td align="center"><span class="badge points">425 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49890226" target="_blank">140 comms</a></td>
+        <td align="center"><span class="badge velocity">0.39</span></td>
+        <td align="center"><small>100.1h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/" target="_blank">The problem is not AI code, but not knowing about system architecture or intent</a></strong><br/><small style="color: #666;">https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/</small></td>
+        <td align="center"><span class="badge points">387 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49880312" target="_blank">240 comms</a></td>
+        <td align="center"><span class="badge velocity">0.36</span></td>
+        <td align="center"><small>117h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents" target="_blank">There are no &quot;rogue&quot; AI agents</a></strong><br/><small style="color: #666;">https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents</small></td>
+        <td align="center"><span class="badge points">396 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49868083" target="_blank">269 comms</a></td>
+        <td align="center"><span class="badge velocity">0.29</span></td>
+        <td align="center"><small>140.9h ago</small></td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://stateofutopia.com/experiments/microllmlab/" target="_blank">MicroLLM Lab – Try 7 tiny LLM&apos;s in the browser</a></strong><br/><small style="color: #666;">https://stateofutopia.com/experiments/microllmlab/</small></td>
+        <td align="center"><span class="badge points">283 pts</span></td>
+        <td align="center"><a href="https://news.ycombinator.com/item?id=49882781" target="_blank">113 comms</a></td>
+        <td align="center"><span class="badge velocity">0.22</span></td>
+        <td align="center"><small>114.2h ago</small></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    Powered by HackerNews Algolia API &bull; Generated by HackerNews Trend Sniffer
+  </footer>
+</body>
+</html>
