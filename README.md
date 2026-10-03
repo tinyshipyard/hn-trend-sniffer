@@ -31,6 +31,6 @@ This will fetch live stories from the Algolia API, filter/score them, and write 
 
 ## What Sai Must Do By Hand to Publish
 1. **Push Repository:** Push this repository to GitHub under your account (`hn-trend-sniffer`).
-2. **Enable GitHub Pages:** Go to repository **Settings > Pages**, and set the source branch to `main` (or root folder `/public` / `gh-pages` depending on your setup).
+2. **Enable GitHub Pages:** In repository **Settings > Pages**, set the source to **GitHub Actions**. The workflow builds `public/` and deploys it every 6 hours.
 3. **Customize Keywords:** Edit `config.json` to include any niche keywords or topics you want to track.
 4. **Subscribe:** Add the RSS feed URL (`https://<username>.github.io/hn-trend-sniffer/feed.xml`) into your favorite RSS reader (NetNewsWire, Feedly, etc.).
